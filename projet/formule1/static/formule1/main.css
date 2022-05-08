@@ -1,0 +1,37 @@
+body {
+    margin: auto;
+    background-image: url(F1.jpg);
+}
+
+.entetesite{
+    width: 70%;
+    margin: auto;
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.entetesite h1 {
+   color : black;
+   width : 100%;
+   text-align: center;
+   background-color: lightblue;
+   margin : 0px auto 0px;
+   padding-bottom: 30px;
+}
+
+.entetesite > nav > a {
+    color: black;
+    background-color: lightblue;
+    margin: 50px;
+    text-decoration: none;
+
+}
+
+.main {
+    width: 85%;
+    margin: auto;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}

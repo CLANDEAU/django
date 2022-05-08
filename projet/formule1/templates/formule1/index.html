@@ -1,0 +1,20 @@
+{% extends "formule1/main.html" %}
+
+{% block title %}
+    Page d'accueil du site
+{% endblock %}
+{%block content %}
+<ol>
+    {% for l in liste %}
+    <li>{{l}} <a href="/formule1/affiche/{{l.id}}">Afficher </a> <a href="/formule1/update/{{l.id}}">Modifier </a> <a
+            href="/formule1/delete/{{l.id}}">Supprimer </a></li>
+    {% endfor %}
+</ol>
+<ol>
+    {% for l2 in liste2 %}
+    <li>{{l2}} <a href="/formule1/affichepilote/{{l2.id}}">Afficher </a> <a href="/formule1/updatepilote/{{l2.id}}">Modifier </a>
+        <a href="/formule1/deletepilote/{{l2.id}}">Désinscrire le pilote </a></li>
+    {% endfor %}
+
+</ol>
+{% endblock %}
