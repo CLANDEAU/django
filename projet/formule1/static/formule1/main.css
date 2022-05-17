@@ -1,6 +1,15 @@
 body {
     margin: auto;
-    background-image: url(F1.jpg);
+    background-color: #55558F;
+}
+
+.entetesite h1 {
+   color : black;
+   width : 100%;
+   text-align: center;
+   background-color: lightblue;
+   margin : 0px auto 0px;
+   padding-bottom: 30px;
 }
 
 .entetesite{
@@ -11,27 +20,31 @@ body {
     padding-bottom: 30px;
 
 }
-.entetesite h1 {
-   color : black;
-   width : 100%;
-   text-align: center;
-   background-color: lightblue;
-   margin : 0px auto 0px;
-   padding-bottom: 30px;
-}
+
+
 
 .entetesite > nav > a {
     color: black;
     background-color: lightblue;
     margin: 50px;
     text-decoration: none;
+}
+
+
+
+li{
+    padding-bottom:10px;
+     padding-top:10px;
 
 }
 
 .main {
-    width: 85%;
+    width: 55%;
     margin: auto;
     padding-left: 15px;
     padding-bottom: 10px;
     background-color: lightblue;
+    margin-top:150px;
+    text-align:center;
+}
 }
