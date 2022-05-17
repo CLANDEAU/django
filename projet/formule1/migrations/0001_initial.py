@@ -18,8 +18,7 @@ class Migration(migrations.Migration):
                 ('nom', models.CharField(max_length=50)),
                 ('marque', models.CharField(max_length=20)),
                 ('team_manager', models.CharField(max_length=50)),
-                ('sponsor', models.CharField(max_length=20)),
-                ('date_creation', models.DateField(blank=True, null=True)),
+                ('sponsor', models.CharField(max_length=20)),   
             ],
         ),
     ]
